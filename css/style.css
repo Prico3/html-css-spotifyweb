@@ -13,9 +13,11 @@ body {
 
 footer {
     height: 10%;
+    background-color: blue;
 }
 
 main {
     height: 90%;
+    background-color: yellow;
 }
 
