@@ -1,0 +1,58 @@
+.position:hover .play-hover {
+    visibility: visible;
+    transform: scale(2);
+}
+
+.album-img:hover {
+    opacity: .6;
+}
+
+
+#upgrade:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px white;
+}
+
+a:hover {
+    color: white;
+}
+
+h6:hover {
+    color: white;
+}
+
+.fa-square-plus:hover {
+    color: white;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.fa-folder:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.fa-heart:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.footer-text:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.riproduction-icons>*:hover {
+    transform: scale(1.2);
+}
+
+.evidence-time-bar:hover {
+    background-color: greenyellow;
+}
+
+.evidence-time-bar:hover #circle-bar {
+    visibility: visible;
+}
