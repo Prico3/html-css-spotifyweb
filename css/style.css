@@ -75,6 +75,7 @@ section{
     height: calc(100% - 100px);
     background-color: #141922;
     width: 100%;
+    overflow-y: auto;
 
 }
 
@@ -162,6 +163,36 @@ footer{
      margin-right: 1.5rem;
 
 }
+
+/* recently played */
+.recently-played{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.recently-played .row{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.recently-played .col{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.recently-played .col *{
+    margin-bottom: 1rem;
+}
+
+.recently-played h2, h4{
+    color: white;
+}
+
+.recently-played p{
+    color: grey
+}
+
+
 
 
 
