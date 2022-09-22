@@ -49,8 +49,8 @@ nav{
     width: var(--sidebar-width);
     height: 100%;
     background-color: black;
-    padding: 1rem;
-    color: white;
+    padding: 1.3rem;
+    color: grey;
     position: relative;
     flex-direction: column;
 }
@@ -89,6 +89,11 @@ footer{
 .home{
     height: 200px;
     font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.home *{
+    margin-top: 0.5rem;
 }
 
 .playlist *{
@@ -110,13 +115,16 @@ footer{
     width: 80%;
 }
 
+.user *{
+    margin-top: 1rem;
+}
+
 .user img{
     background-color: grey;
     border-radius: 50%;
     height: 50px;
     width: 50px;
 }
-
 
 /* RESPONSIVE */
 
