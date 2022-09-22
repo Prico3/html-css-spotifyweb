@@ -18,6 +18,11 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /* ROOT */
 :root{
@@ -63,6 +68,7 @@ section{
     width: 100%;
     background-color: #080b12;
     height: 100px;
+    color: grey;
 }
 
 .album{
@@ -124,6 +130,20 @@ footer{
     border-radius: 50%;
     height: 50px;
     width: 50px;
+}
+
+/* HEADER */
+.cta{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cta a{
+    margin-right: 1rem;
+    padding: 1rem 3rem;
+    display: block;
+    border: 2px solid grey;
+    border-radius: 50px;
 }
 
 /* RESPONSIVE */
