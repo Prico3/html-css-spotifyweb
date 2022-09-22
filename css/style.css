@@ -9,11 +9,22 @@ img{
     max-width: 100%;
 }
 
+ul{
+    list-style-type: none;
+}
+
+html{
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 /* ROOT */
 :root{
     --footer-height: 90px;
+    --header-height: 100px;
     --sidebar-width: 300px;
+
 
 }
 
@@ -39,6 +50,9 @@ nav{
     height: 100%;
     background-color: black;
     padding: 1rem;
+    color: white;
+    position: relative;
+    flex-direction: column;
 }
 
 section{
@@ -62,6 +76,45 @@ footer{
     height: var(--footer-height);
     width: 100%;
     background-color: #282828;
+}
+
+
+
+/* NAVIGATION BAR / SIDEBAR */
+
+.logo{
+    height: var(--header-height);
+}
+
+.home{
+    height: 200px;
+    font-size: 1.5rem;
+}
+
+.playlist *{
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.playlist i{
+    font-size: 3rem;
+}
+
+.playlist .li-special{
+    align-items: center;
+}
+.user{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    width: 80%;
+}
+
+.user img{
+    background-color: grey;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
 }
 
 
