@@ -26,7 +26,7 @@ a{
 
 /* ROOT */
 :root{
-    --footer-height: 90px;
+    --footer-height: 110px;
     --header-height: 100px;
     --sidebar-width: 300px;
 
@@ -240,6 +240,31 @@ footer{
     border-radius: 50%;
 }
 
+/* FOOTER */
+
+.song{
+    padding: 1rem;
+    justify-content: space-between;
+    color: white;
+    height: var(--footer-height);
+}
+.song img{
+    height: 70px;
+    width: 70px;
+}
+
+.song-name{
+    border: 1px solid greenyellow;
+}
+
+.start-stop{
+    border: 1px solid greenyellow;
+}
+
+.volume{
+    border: 1px solid greenyellow;
+
+}
 
 
 
