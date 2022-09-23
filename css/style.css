@@ -169,7 +169,8 @@ footer{
 
 /* recently played */
 .recently-played,
-.created-for-you{
+.created-for-you,
+.popular-artist{
     margin-top: 3rem;
 }
 
@@ -203,6 +204,7 @@ footer{
 
 .created-for-you .col *{
     margin-bottom: 1rem;
+    margin-right: 2rem;
 }
 
 .created-for-you h2, h3{
@@ -212,6 +214,30 @@ footer{
 .created-for-you p{
     color: grey;
     margin-top: 1rem;
+}
+
+/* popular artist */
+.popular-artist .col{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.popular-artist .col *{
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.popular-artist h2, h3{
+    color: white;
+}
+
+.popular-artist p{
+    color: grey;
+    margin-top: 1rem;
+}
+
+.popular-artist img{
+    border-radius: 50%;
 }
 
 
