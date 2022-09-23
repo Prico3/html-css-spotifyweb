@@ -33,6 +33,26 @@ a{
 
 }
 
+/* HOVER */
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.cta a:hover{
+    font-size: 1.1rem;
+}
+
+footer i:hover{
+    color: green;
+    cursor: pointer;
+}
+
+
+
+
+
+
 /* COMMON */
 
 .flex{
@@ -103,17 +123,25 @@ footer{
     margin-top: 0.5rem;
 }
 
+.playlist{
+    overflow-y:scroll;
+}
+
 .playlist *{
     font-size: 1.3rem;
     margin-top: 20px;
+}
+
+.playlist ul li:first-child{
+    color: white;
 }
 
 .playlist i{
     font-size: 3rem;
 }
 
-.playlist .li-special{
-    align-items: center;
+.playlist .li-special span{
+    vertical-align: super;
 }
 .user{
     position: absolute;
@@ -123,7 +151,17 @@ footer{
 }
 
 .user *{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+}
+
+.profile-picture{
+    align-items: center;
+    color: white;
+    font-weight: 900;
+}
+
+.profile-picture span{
+    margin-left: 0.5rem;
 }
 
 .user img{
@@ -137,13 +175,14 @@ footer{
 .cta{
     justify-content: flex-end;
     align-items: center;
+    color: white;
 }
 
 .cta a{
     margin-right: 1rem;
     padding: 1rem 3rem;
     display: block;
-    border: 2px solid grey;
+    border: 2px solid white;
     border-radius: 50px;
 }
 
@@ -160,6 +199,7 @@ footer{
     justify-content: center;
     padding-top: 2rem;
     font-weight: bold;
+    width: 100%;
 }
 
 .list-explore li{
@@ -198,9 +238,14 @@ footer{
 }
 
 /* created-for-you */
+.created-for-you .row{
+    gap: 1rem;
+}
 .created-for-you .col{
     margin-top: 1rem;
     text-align: center;
+    width: calc(100% / 6 - 1rem);
+
 }
 
 .created-for-you .col *{
@@ -218,7 +263,11 @@ footer{
 }
 
 /* popular artist */
+.popular-artist .row{
+    gap: 1rem;
+}
 .popular-artist .col{
+    width: calc(100% / 6 - 1rem);
     margin-top: 1rem;
     text-align: center;
 }
@@ -355,6 +404,14 @@ footer{
     .recently-played .col{
         width: calc(100% / 4 - 1rem);
     }
+
+    .created-for-you .col{
+        width: calc(100% / 4 - 1rem);
+    }
+
+    .popular-artist .col{
+        width: calc(100% / 4 - 1rem);
+    }
 }
 
 
@@ -363,11 +420,31 @@ footer{
     .recently-played .col{
         width: calc(100% / 2 - 1rem);
     }
+
+    .created-for-you .col{
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .popular-artist .col{
+        width: calc(100% / 2 - 1rem);
+    }
 }
 
 
 @media screen and (max-width: 600px) {
-    nav{
-        width: 80px;
-    }
+   nav{
+    width: 80px;
+   }
+   .logo,
+   .home,
+   .playlist,
+   .user{
+    display: none;
+   }
+
+
+
+
+
+
 }
