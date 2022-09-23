@@ -26,7 +26,7 @@ a{
 
 /* ROOT */
 :root{
-    --footer-height: 110px;
+    --footer-height: 130px;
     --header-height: 100px;
     --sidebar-width: 300px;
 
@@ -175,13 +175,14 @@ footer{
 }
 
 .recently-played .row{
-    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .recently-played .col{
     margin-top: 1rem;
     text-align: center;
+    width: calc(100% / 6 - 1rem);
 }
 
 .recently-played .col *{
@@ -252,6 +253,7 @@ footer{
     height: 70px;
     width: 70px;
 }
+/* SONG NAME */
 
 .song-name {
     align-items: center;
@@ -275,17 +277,69 @@ footer{
     margin-left: 3rem;
 }
 
+
+/* START STOP */
+
 .start-stop{
-    border: 1px solid greenyellow;
+    width: 40%;
 }
+
+.start-stop .icons{
+    text-align: center;
+    
+}
+
+.start-stop .icons i{
+    font-size: 2rem;
+    margin: 0 1rem
+}
+
+
+.bar-container{
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar-container *{
+    margin-right: 1rem;
+}
+
+.bar-container .bar{
+    width: 80%;
+    background-color: grey;
+    height: 5px;
+}
+
+.progress {
+    width: 20%;
+    height: 5px;
+    background-color: white;
+}
+
+/* VOLUME */
 
 .volume{
-    border: 1px solid greenyellow;
+    align-items: center;
 
 }
 
+.wrapper-volume{
+    width: 300px;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.wrapper-volume *{
+    margin-right: 1rem;
+}
+
+.wrapper-volume .bar{
+    width: 200px;
+    background-color: grey;
+    height: 5px;
+}
 
 
 
