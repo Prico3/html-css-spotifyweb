@@ -253,8 +253,26 @@ footer{
     width: 70px;
 }
 
-.song-name{
-    border: 1px solid greenyellow;
+.song-name {
+    align-items: center;
+}
+
+.song-name .text{
+    margin-left: 1rem;
+}
+.song-name .text p{
+    color: grey;
+}
+
+
+.song-name .icons i{
+    margin-left: 1rem;
+    color: grey;
+    font-size: larger;
+}
+
+.song-name .icons{
+    margin-left: 3rem;
 }
 
 .start-stop{
