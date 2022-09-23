@@ -148,6 +148,9 @@ footer{
 }
 
 /* ALBUM SECTION */
+.album{
+    padding: 2rem;
+}
 .explore{
     width: 100%;
 }
@@ -160,14 +163,14 @@ footer{
 }
 
 .list-explore li{
-     margin-right: 1.5rem;
+    margin-right: 1.5rem;
 
 }
 
 /* recently played */
-.recently-played{
+.recently-played,
+.created-for-you{
     margin-top: 3rem;
-    margin-left: 1rem;
 }
 
 .recently-played .row{
@@ -189,7 +192,26 @@ footer{
 }
 
 .recently-played p{
-    color: grey
+    color: grey;
+}
+
+/* created-for-you */
+.created-for-you .col{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.created-for-you .col *{
+    margin-bottom: 1rem;
+}
+
+.created-for-you h2, h3{
+    color: white;
+}
+
+.created-for-you p{
+    color: grey;
+    margin-top: 1rem;
 }
 
 
